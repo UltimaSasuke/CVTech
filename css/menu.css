@@ -1,0 +1,349 @@
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+.checkbox{width:50px}
+.inline {
+    display: inline-block;
+}
+label {
+    min-width: 120px;
+}
+.titleprghp {
+    background:#1E90FF;
+    border-radius: 10px ;
+    height: 46px;
+    color: #000;
+    font-size: 23px;
+    height: 46px;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+    margin: 20px 0 20px;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    float: left;
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-right: -5px;
+    border-color: transparent;
+    border-right-color: #cccccc;
+    border-style: solid;
+    border-width: 5px 5px 5px 0;
+    content: " ";
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-right: 100%;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* index contenu */
+.img {
+    width: 100%;
+}
+.cont1 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cont3 {
+    color: black;
+
+}
+
+.fonc {
+    color: white;
+    background: #101010;
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.circle {
+
+}
+/* fin index contenu */
+
+
+/* footer */
+footer {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #696969; /** Gris du footer **/
+    border-top: 1px solid #696969;
+    font-size: 20px;
+}
+
+.f1 {
+    background:#337ab7;
+    padding-top:10px;
+    color: #101010;
+}
+
+.f2 {
+    padding-top:5px;
+    background:#101010;
+    color: slategrey;
+    font-size: 12px;
+}
+
+a:link
+{
+    color: darkgrey;
+    text-decoration:none;
+}
+
+a
+{
+    color: #101010;
+    text-decoration: none;
+}
+
+a:hover
+{
+
+    text-decoration: none;
+}
+/* fin footer */
+
+
+/*affichage cv*/
+.menu {
+
+    height: 50px;
+    background-color: black;
+
+}
+
+/* uses font awesome for social icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.page-header{
+    text-align: center;
+}
+
+/*social buttons*/
+.btn-social{
+    color: white;
+    opacity:0.9;
+}
+.btn-social:hover {
+    color: white;
+    opacity:1;
+}
+.btn-facebook {
+    background-color: #3b5998;
+    opacity:0.9;
+}
+.btn-twitter {
+    background-color: #00aced;
+    opacity:0.9;
+}
+.btn-linkedin {
+    background-color:#0e76a8;
+    opacity:0.9;
+}
+.btn-github{
+    background-color:#000000;
+    opacity:0.9;
+}
+.btn-google {
+    background-color: #c32f10;
+    opacity: 0.9;
+}
+.btn-stackoverflow{
+    background-color: #D38B28;
+    opacity: 0.9;
+}
+
+/* resume stuff */
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4{
+    color: #d9534f;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+    border-radius:0;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.resume-heading .social-btns{
+    margin-top:15px;
+}
+.resume-heading .social-btns i.fa{
+    margin-left:-5px;
+}
+
+
+
+@media (max-width: 992px) {
+    .resume-heading .social-btn-holder{
+        padding:5px;
+    }
+}
+
+
+/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+
+.progress-bar {
+    text-align: left;
+    white-space: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+    padding-left: 10px;
+}
+
+.progress-meter {
+    min-height: 15px;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    margin-bottom: 15px;
+}
+
+.progress-meter > .meter {
+    position: relative;
+    float: left;
+    min-height: 15px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+    border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+    float: right;
+    border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+    border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+    position: absolute;
+    display: inline-block;
+    bottom: -20px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.85em;
+    color: rgb(160, 160, 160);
+    text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+    text-align: right;
+}
+
+
+/* fin affichage */
+
+* {
+.border-radius(0) !important;
+}
+
+#field {
+    margin-bottom:20px;
+}

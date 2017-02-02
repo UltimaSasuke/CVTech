@@ -1,0 +1,12 @@
+#Options +FollowSymlinks
+#RewriteEngine On
+
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule ^(.*)$ projet/controleur/$1.php [L]
+
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+controleur/([^\s]+) [NC]
+#RewriteRule ^ %1 [R=301,L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule (?!^projet/controleur/)^(.*)$ /controleur/$1 [L,NC]
+#order deny,allow

@@ -1,0 +1,305 @@
+.menu {
+
+    height: 50px;
+    background-color: black;
+
+}
+
+/* uses font awesome for social icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.page-header{
+    text-align: center;
+}
+
+/*social buttons*/
+.btn-social{
+    color: white;
+    opacity:0.9;
+}
+.btn-social:hover {
+    color: white;
+    opacity:1;
+}
+.btn-facebook {
+    background-color: #3b5998;
+    opacity:0.9;
+}
+.btn-twitter {
+    background-color: #00aced;
+    opacity:0.9;
+}
+.btn-linkedin {
+    background-color:#0e76a8;
+    opacity:0.9;
+}
+.btn-github{
+    background-color:#000000;
+    opacity:0.9;
+}
+.btn-google {
+    background-color: #c32f10;
+    opacity: 0.9;
+}
+.btn-stackoverflow{
+    background-color: #D38B28;
+    opacity: 0.9;
+}
+
+/* resume stuff */
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4{
+    color: #d9534f;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+    border-radius:0;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.resume-heading .social-btns{
+    margin-top:15px;
+}
+.resume-heading .social-btns i.fa{
+    margin-left:-5px;
+}
+
+
+
+@media (max-width: 992px) {
+    .resume-heading .social-btn-holder{
+        padding:5px;
+    }
+}
+
+
+/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+
+.progress-bar {
+    text-align: left;
+    white-space: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+    padding-left: 10px;
+}
+
+.progress-meter {
+    min-height: 15px;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    margin-bottom: 15px;
+}
+
+.progress-meter > .meter {
+    position: relative;
+    float: left;
+    min-height: 15px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+    border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+    float: right;
+    border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+    border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+    position: absolute;
+    display: inline-block;
+    bottom: -20px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.85em;
+    color: rgb(160, 160, 160);
+    text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+    text-align: right;
+}
+
+
+.iframe-container {
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal.in .modal-dialog {
+    transform: none; /*translate(0px, 0px);*/
+}
+
+.searchable-container{margin:20px 0 0 0}
+.searchable-container label.btn-default.active{background-color:#007ba7;color:#FFF}
+.searchable-container label.btn-default{width:90%;border:1px solid #efefef;margin:5px; box-shadow:5px 8px 8px 0 #ccc;}
+.searchable-container label .bizcontent{width:100%;}
+.searchable-container .btn-group{width:90%}
+.searchable-container .btn span.glyphicon{
+    opacity: 0;
+}
+.searchable-container .btn.active span.glyphicon {
+    opacity: 1;
+}
+
+body {
+    margin: 30px 0px;
+}
+.progress {
+    position: relative;
+    height: 25px;
+}
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
